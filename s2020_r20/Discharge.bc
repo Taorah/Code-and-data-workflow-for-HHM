@@ -1,0 +1,143 @@
+[forcing]
+Name                            = Catching_Slough_0001
+Function                        = timeseries
+Time-interpolation              = linear
+Quantity                        = time
+Unit                            = seconds since 2002-10-01 00:00:00
+Quantity                        = dischargebnd
+Unit                            = m3/s
+604195200  1
+665625600  1
+
+[forcing]
+Name                            = Coalbank_Slough_0001
+Function                        = timeseries
+Time-interpolation              = linear
+Quantity                        = time
+Unit                            = seconds since 2002-10-01 00:00:00
+Quantity                        = dischargebnd
+Unit                            = m3/s
+604195200  1
+665625600  1
+
+[forcing]
+Name                            = Elliot_Creek_0001
+Function                        = timeseries
+Time-interpolation              = linear
+Quantity                        = time
+Unit                            = seconds since 2002-10-01 00:00:00
+Quantity                        = dischargebnd
+Unit                            = m3/s
+604195200  1
+665625600  1
+
+[forcing]
+Name                            = Hayes_Slough_0001
+Function                        = timeseries
+Time-interpolation              = linear
+Quantity                        = time
+Unit                            = seconds since 2002-10-01 00:00:00
+Quantity                        = dischargebnd
+Unit                            = m3/s
+604195200  1
+665625600  1
+
+[forcing]
+Name                            = Ithsmus_Slough_0001
+Function                        = timeseries
+Time-interpolation              = linear
+Quantity                        = time
+Unit                            = seconds since 2002-10-01 00:00:00
+Quantity                        = dischargebnd
+Unit                            = m3/s
+604195200  1
+665625600  1
+
+[forcing]
+Name                            = Joeney_Slough_0001
+Function                        = timeseries
+Time-interpolation              = linear
+Quantity                        = time
+Unit                            = seconds since 2002-10-01 00:00:00
+Quantity                        = dischargebnd
+Unit                            = m3/s
+604195200  1
+665625600  1
+
+[forcing]
+Name                            = Kentuck_Slough_0001
+Function                        = timeseries
+Time-interpolation              = linear
+Quantity                        = time
+Unit                            = seconds since 2002-10-01 00:00:00
+Quantity                        = dischargebnd
+Unit                            = m3/s
+604195200  1
+665625600  1
+
+[forcing]
+Name                            = North_Coos_0001
+Function                        = timeseries
+Time-interpolation              = linear
+Quantity                        = time
+Unit                            = seconds since 2002-10-01 00:00:00
+Quantity                        = dischargebnd
+Unit                            = m3/s
+604195200  1
+665625600  1
+
+[forcing]
+Name                            = North_Slough_0001
+Function                        = timeseries
+Time-interpolation              = linear
+Quantity                        = time
+Unit                            = seconds since 2002-10-01 00:00:00
+Quantity                        = dischargebnd
+Unit                            = m3/s
+604195200  1
+665625600  1
+
+[forcing]
+Name                            = Pony_Slough_0001
+Function                        = timeseries
+Time-interpolation              = linear
+Quantity                        = time
+Unit                            = seconds since 2002-10-01 00:00:00
+Quantity                        = dischargebnd
+Unit                            = m3/s
+604195200  1
+665625600  1
+
+[forcing]
+Name                            = South_Coos_0001
+Function                        = timeseries
+Time-interpolation              = linear
+Quantity                        = time
+Unit                            = seconds since 2002-10-01 00:00:00
+Quantity                        = dischargebnd
+Unit                            = m3/s
+604195200  1
+665625600  1
+
+[forcing]
+Name                            = Willanch_Slough_0001
+Function                        = timeseries
+Time-interpolation              = linear
+Quantity                        = time
+Unit                            = seconds since 2002-10-01 00:00:00
+Quantity                        = dischargebnd
+Unit                            = m3/s
+604195200  1
+665625600  1
+
+[forcing]
+Name                            = Winchester_Creek_0001
+Function                        = timeseries
+Time-interpolation              = linear
+Quantity                        = time
+Unit                            = seconds since 2002-10-01 00:00:00
+Quantity                        = dischargebnd
+Unit                            = m3/s
+604195200  1
+665625600  1
+
