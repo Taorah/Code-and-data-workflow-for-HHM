@@ -98,11 +98,15 @@ addpath(t_tide_folder)
 cd(project_folder)
 
 t = datetime(2021,12,1):minutes(10):datetime(2022,1,1);
-% NOTE NEW MODEL
-% US101 equals 95
-% AIRPORT equals 31
-% DOWNTOWN equals 74
-% AGRIC AREA equals 92 or 220 depending on your mesh reference
+% Observation-point indices for the current Delft3D model output:
+% US 101:            75
+% Airport:           24
+% Downtown Coos Bay: 59
+% Agricultural area: 205
+%
+% IMPORTANT: Verify these indices against the observation-point names
+% before each analysis. The indices may change if the Delft3D
+% observation-point list is reordered or updated.
 
 %% ================== DYNAMIC LOCATION CONTROL ==================
 % Single switch for the analysis location. Everything else updates from this choice
@@ -112,25 +116,25 @@ location_waves = 3; % 1 downtown, 2 US-101, 3 airport, 4 agricultural area
 % Map location choice to idx, titles, legends, and threshold
 switch location_waves
   case 1 % downtown
-    idx = 74;
+    idx = 59;
     loc_title = 'Downtown';
     legend_pd = 'Present Day Levee Downtown';
     legend_fwr = 'Full Wetland Restoration Downtown';
     exceed_threshold_m = 3.25; % DT equals 3.25 m NAVD88
   case 2 % US 101
-    idx = 95;
+    idx = 75;
     loc_title = 'US 101 Highway';
     legend_pd = 'Present Day Levee US 101 Highway';
     legend_fwr = 'Full Wetland Restoration US 101 Highway';
     exceed_threshold_m = 3.32; % Highway equals 3.32 m NAVD88
   case 3 % Airport
-    idx = 31;
+    idx = 24;
     loc_title = 'Airport';
     legend_pd = 'Present Day Levee Airport';
     legend_fwr = 'Full Wetland Restoration';
     exceed_threshold_m = 4; % set your site specific value if different
   case 4 % Agricultural area
-    idx = 220; % confirmed agric index is 220
+    idx = 205; % 
     loc_title = 'Agric';
     legend_pd = 'Present Day Levee Agric';
     legend_fwr = 'Full Wetland Restoration Agric';
